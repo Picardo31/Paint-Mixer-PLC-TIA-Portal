@@ -3,7 +3,9 @@ The company Pinturas CIMA needs to implement the project for the automation of t
 mixing process for his paint factory, in cans of two different sizes.
 The raw material to generate any color is based on the primary colors cyan,
 magenta and yellow.
+
 The system will have the following components:
+
  A pulsating N.C. for emergency.
  Two pulsating N.O. to activate the start of the system and the reset to return to
 Operating conditions.
