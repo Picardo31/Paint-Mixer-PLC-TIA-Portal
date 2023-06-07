@@ -157,6 +157,32 @@ Variator works as follows:
 3min.
 * The mixing speed will be 40Hz
 
+
+Software Developed:
+
+* The program carries out using the TIA PORTAL V14 software and the
+PLC S7-1214C., the use of a screen for the compatible HMI will be considered
+with said PLC.
+* The programming language to be used will be in FBD.
+* Linear and structured programming is used.
+
+INTERFACE
+
+* The graphical interface is the KP600 (5-7” A,
+6-key color screen or another compatible with the PLC used).
+* Four Screens should are considered; for Front Page,
+Process, User Management, Signaling, Records, etc.
+* An interactive interface is developed in which the change can be evidenced.
+status (activated/deactivated) of the inputs and outputs (sensors, valves,
+motors, lamps, etc.) the closest thing to the industrial environment to be automated.
+* The total and partial production parameters (cans of
+3 and 5 liters), primary color tank levels, mixer speed and time, batch production time, current sensor values or
+actuators etc
+* The interface displays when there is an alarm and display an indicative text
+of the specific alarm that has occurred (stop button, motor protection,
+or mixer, tank levels, etc.).
+
+
 Possible Selection of Colors
 
 ![Mix](https://github.com/Picardo31/Paint-Mixer-PLC-TIA-Portal/assets/70179309/c9cceb7e-f9a4-4c8b-81ef-aed835e87dd5)
