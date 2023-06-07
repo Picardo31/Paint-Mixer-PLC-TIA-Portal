@@ -1,5 +1,5 @@
 # Paint-Mixer-PLC-TIA-Portal
-The company Pinturas CIMA needs to implement the project for the automation of the
+The proyect involves a Paint Company, which needs to implement the project for the automation of the
 mixing process for his paint factory, in cans of two different sizes.
 The raw material to generate any color is based on the primary colors cyan,
 magenta and yellow.
@@ -28,3 +28,17 @@ driven by 0-20mA current.
 damage or failure.
 * A single-acting pneumatic cylinder, controlled by a solenoid valve
 monostable.
+
+System operating conditions:
+
+The automation of the system will allow carrying out the mixing process of cans
+of paint of two different sizes (3 and 5 liters), through the implementation of
+an HMI.
+The process will contemplate two modes of operation:
+
+* Automatic mode.
+* Manual mode.
+
+Possible Selection of Colors
+
+![Mix](https://github.com/Picardo31/Paint-Mixer-PLC-TIA-Portal/assets/70179309/c9cceb7e-f9a4-4c8b-81ef-aed835e87dd5)
