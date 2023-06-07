@@ -148,6 +148,7 @@ Variator works as follows:
 * If there is a combination of two primary colors, the mixing time will be
 2min.
 * The mixing speed will be 15Hz.
+
 5 liter pot: time and speed.
 * If there is a combination of three primary colors, the mixing time will be
 4min.
