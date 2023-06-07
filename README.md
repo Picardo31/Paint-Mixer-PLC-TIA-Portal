@@ -40,6 +40,7 @@ The process will contemplate two modes of operation:
 * Manual mode.
 
 Automatic Mode:
+
 The system will be activated with a physical or HMI selector, through which the
 operator will be able to select Automatic mode.
 * Then the size of the paint can to be produced will be selected, 3 or 5 liters.
@@ -105,6 +106,55 @@ mixing process of the color and size selected above.
 * Consider that you should keep track of the number of boats by size and color
 that have been generated, as well as the total jackpot count.
 
+EMERGENCY
+
+* By pressing the emergency button, the system will be de-energized by
+complete and will stop the mixing process.
+* When the emergency has been dealt with and the system is ready to work, the
+The operator will press the reset button and enable the system to start a new
+mixing process.
+
+SIGNALING AND ALARMS
+
+* The white lamp will light when the system is in
+operation, if the machine is in the process of cleaning or filling
+tanks, this lamp will be activated intermittently for the duration of said
+process.
+* The alarm lamps of the three primary paint cans will activate when
+the level of the tanks drops to 20% of its total capacity.
+* The fault lamp will activate when the emergency button is pressed
+and will have intermittent operation, until the service is normalized.
+* The HMI will allow to constantly visualize the capacity of the tanks, keep the
+production account
+
+Manual Mode:
+
+* Consider a personalized routine to develop the aspects that should be
+consider for the operation of the manual mode of the process, which can be
+used for cleaning, filling the tanks or acting in an emergency of the
+system.
+
+Features:
+
+* 3 liter jar: 4.5kg
+* 5 liter container: 8 kg
+
+Variator works as follows:
+
+- 3 liter jar: time and speed.
+* If there is a combination of three primary colors, the mixing time will be
+3min.
+* The mixing speed will be 30Hz.
+* If there is a combination of two primary colors, the mixing time will be
+2min.
+* The mixing speed will be 15Hz.
+- 5 liter pot: time and speed.
+* If there is a combination of three primary colors, the mixing time will be
+4min.
+* The mixing speed will be 50Hz.
+* If there is a combination of two primary colors, the mixing time will be
+3min.
+* The mixing speed will be 40Hz
 
 Possible Selection of Colors
 
