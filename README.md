@@ -6,8 +6,8 @@ magenta and yellow.
 
 The system will have the following components:
 
- A pulsating N.C. for emergency.
- Two pulsating N.O. to activate the start of the system and the reset to return to
+* A pulsating N.C. for emergency.
+* Two pulsating N.O. to activate the start of the system and the reset to return to
 Operating conditions.
  A selector with three positions for Automatic, OFF and Manual Mode.
  Three tanks of 500 liters each, corresponding to the primary colors
