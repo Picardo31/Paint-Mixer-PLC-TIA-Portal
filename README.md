@@ -141,14 +141,14 @@ Features:
 
 Variator works as follows:
 
-- 3 liter jar: time and speed.
+3 liter jar: time and speed.
 * If there is a combination of three primary colors, the mixing time will be
 3min.
 * The mixing speed will be 30Hz.
 * If there is a combination of two primary colors, the mixing time will be
 2min.
 * The mixing speed will be 15Hz.
-- 5 liter pot: time and speed.
+5 liter pot: time and speed.
 * If there is a combination of three primary colors, the mixing time will be
 4min.
 * The mixing speed will be 50Hz.
