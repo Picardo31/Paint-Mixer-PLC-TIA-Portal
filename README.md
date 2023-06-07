@@ -42,3 +42,11 @@ The process will contemplate two modes of operation:
 Possible Selection of Colors
 
 ![Mix](https://github.com/Picardo31/Paint-Mixer-PLC-TIA-Portal/assets/70179309/c9cceb7e-f9a4-4c8b-81ef-aed835e87dd5)
+
+Recipe Selection
+
+![Rem](https://github.com/Picardo31/Paint-Mixer-PLC-TIA-Portal/assets/70179309/c0047af3-5eee-4695-8629-ec7af5dda24c)
+
+Visual Interface of automation of a paint mixing system
+
+![Mf](https://github.com/Picardo31/Paint-Mixer-PLC-TIA-Portal/assets/70179309/ba77d4e5-e9ab-4bcc-a922-abeae5178a22)
