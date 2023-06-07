@@ -39,14 +39,81 @@ The process will contemplate two modes of operation:
 * Automatic mode.
 * Manual mode.
 
+Automatic Mode:
+The system will be activated with a physical or HMI selector, through which the
+operator will be able to select Automatic mode.
+* Then the size of the paint can to be produced will be selected, 3 or 5 liters.
+* It should be considered that the operator may choose any of the colors
+or you can generate your own recipe for a custom color.
+* It is considered at least two color recipes that are generated from the three
+primary colors, for each size of paint pot (in each recipe of the
+colors, the amounts of each of the primary colors are considered, as well
+such as time and mixer speed).
+* In case of choosing a personalized color, the operator will be able to enter
+autonomous its own recipe of primary colors to generate a pot of paint,
+you will also select the mixing time and mixer speed.
+* Once the size of the boat and the desired color (fixed or personalized) have been selected,
+the start button will be activated to continue with the process.
+The empty 3 or 5 liter can will be located on the conveyor belt, the same as
+It will be activated with the start button.
+ When the boat is located under the cyan primary color tank, it is detected
+by the inductive sensor; and if the recipe requires this color, the appointment is stopped
+conveyor, the solenoid valve is activated that will dispense the necessary amount
+of that primary color. At the same time the weight scale will be activated
+constantly feeling the weight. In the event that the desired color, no
+requires any of the primaries located in the tanks, the tape does not
+will stop.
+* When the paint can has been filled with the necessary weight according to the recipe of the
+cyan color, the solenoid valve is closed and the conveyor belt is activated
+again, to move the pot to the next primary color.
+* The inductive sensor below the magenta primary color is
+will activate when the boat has been detected and will stop the tape, as long as
+the color recipe calls for this color. By simultaneously opening the solenoid valve and
+pouring the necessary amount of said color.
+* When the boat has reached the desired weight of this color, the
+solenoid valve and activates the conveyor belt again to continue towards
+the next tank of paint.
+* When the paint can is located under the yellow primary color tank,
+is detected by the inductive sensor; and if the recipe calls for this color, it is
+stops the conveyor appointment, the solenoid valve is activated that will dispense the
+required amount of said primary color. At the same time the weight scale will be
+constantly activated by sensing the weight of the boat.
+* When the boat has reached the desired weight of this color, the
+solenoid valve and activates the conveyor belt again to continue towards
+the mixing process.
+* When the pot has been filled with the primary colors according to the recipe,
+the inductive sensor located under the mixer will detect this and stop the tape
+conveyor, which will activate the mixing system after 3s that the
+pot under the mixer.
+* After 3s, the solenoid valve of the single effect cylinder will be activated, when
+fully extended, the mixer will have been located inside the boat
+of paint and you are ready to mix.
+* Once the mixer is located, it will be activated by time and frequency or
+speed according to the selected color recipe. The larger the boat
+longer time and speed of the mixing process.
+After that time the mixer will stop and deactivate the solenoid valve.
+of the single-acting cylinder, thus removing the mixer from the can.
+* When the mixer has been completely withdrawn (i.e. the cylinder is
+fully contracted), it will take 3s for the ribbon to activate again
+conveyor.
+* The mixing process ends when the inductive sensor located at the end of the belt
+conveyor detects the boat and stops it, so the operator can take the
+pot of mixed paint
+* In this way the mixing process will be finished, the
+production record and the system is ready to start a new
+mixing process of the color and size selected above.
+* Consider that you should keep track of the number of boats by size and color
+that have been generated, as well as the total jackpot count.
+
+
 Possible Selection of Colors
 
 ![Mix](https://github.com/Picardo31/Paint-Mixer-PLC-TIA-Portal/assets/70179309/c9cceb7e-f9a4-4c8b-81ef-aed835e87dd5)
 
 Recipe Selection
 
-![Rem](https://github.com/Picardo31/Paint-Mixer-PLC-TIA-Portal/assets/70179309/c0047af3-5eee-4695-8629-ec7af5dda24c)
+![Remt](https://github.com/Picardo31/Paint-Mixer-PLC-TIA-Portal/assets/70179309/bce59e8e-56b8-4e49-8123-d81446bb607c)
 
 Visual Interface of automation of a paint mixing system
 
-![Mf](https://github.com/Picardo31/Paint-Mixer-PLC-TIA-Portal/assets/70179309/ba77d4e5-e9ab-4bcc-a922-abeae5178a22)
+![MFT](https://github.com/Picardo31/Paint-Mixer-PLC-TIA-Portal/assets/70179309/5ebe6f15-da13-4f3c-8cfe-1047a702aab6)
